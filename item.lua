@@ -6,5 +6,6 @@ pollutionSensor.order = 'z'
 local recipe = table.deepcopy(data.raw["recipe"]["constant-combinator"])
 recipe.name = "pollution-sensor"
 recipe.result = "pollution-sensor"
+recipe.order = 'z'
 
 data:extend{pollutionSensor,recipe}
