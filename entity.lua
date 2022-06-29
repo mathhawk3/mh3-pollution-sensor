@@ -1,10 +1,10 @@
 data:extend{{
 	type = "constant-combinator",
-    name = "constant-combinator",
+    name = "pollution-sensor",
     icon = "__base__/graphics/icons/constant-combinator.png",
     icon_size = 64, icon_mipmaps = 4,
     flags = {"placeable-neutral", "player-creation"},
-    minable = {mining_time = 0.1, result = "constant-combinator"},
+    minable = {mining_time = 0.1, result = "pollution-sensor"},
     max_health = 120,
     corpse = "constant-combinator-remnants",
     dying_explosion = "constant-combinator-explosion",
