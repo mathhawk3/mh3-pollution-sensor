@@ -9,3 +9,5 @@ recipe.result = "pollution-sensor"
 recipe.order = 'z'
 
 data:extend{pollutionSensor,recipe}
+
+table.insert(data.raw["technology"]["circuit-network"].effects, {type = "unlock-recipe", recipe = "pollution-sensor"})
