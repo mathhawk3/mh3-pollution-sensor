@@ -1,1 +1,9 @@
-
+{
+	"name": "mh3-pollution-sensor",
+	"version": "0.1.0",
+	"title": "Mathhawk3's pollution sensor",
+	"author": "mathhawk3",
+	"factorio_version": "1.1",
+	"dependencies": ["base >= 1.1"],
+	"description": "Adds a machine which outputs the pollution level of its current chunk as a signal."
+}
